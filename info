@@ -1,0 +1,26 @@
+https://stteamsite.symphonyteleca.com/vz-one-mdm/Documents/DMCLIENT/REQUIREMENTS/Verizon/[2015-12-02]%20Verizon_OTADM_Requirements_Ref_Client%20-%20Dec02.pdf
+https://stteamsite.symphonyteleca.com/vz-one-mdm/Documents/DMCLIENT/REQUIREMENTS/Verizon/open_access/LTE_OTADM_Requirements_REQ_JUNE2015.pdf
+http://ph0b.com/new-android-studio-ndk-support/
+
+char* pal_connmo_6_id_get();
+int pal_connmo_6_id_set(char* dataBuffer);
+char* pal_connmo_6_name_get();
+int pal_connmo_6_name_set(char* dataBuffer);
+char* pal_connmo_6_ip_get();
+int pal_connmo_6_ip_set(char* dataBuffer);
+char* pal_connmo_6_enabled_get();
+int pal_connmo_6_enabled_set(char* dataBuffer);
+char* pal_connmo_6_operations_get();
+int pal_connmo_6_operations_set(char* dataBuffer);
+
+char* pal_connmo_ims_get();
+int pal_connmo_ims_set(char* dataBuffer);
+char* pal_connmo_setting_get();
+int pal_connmo_setting_set(char* dataBuffer);
+char* pal_connmo_domain_get();
+int pal_connmo_domain_set(char* dataBuffer);
+char* pal_connmo_sipt1_get();
+int pal_connmo_sipt2_set(char* dataBuffer);
+char* pal_connmo_sms_over_ip_network_indication_get();
+int pal_connmo_sms_over_ip_network_indication_set(char* dataBuffer);
+
