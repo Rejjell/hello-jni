@@ -1,0 +1,14 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+F:\\work\\hello-jni\\app\\build\\intermediates\\binaries\\debug\\arm\\obj\\armeabi\\libhello-jni.so
+F:\\work\\hello-jni\\app\\build\\intermediates\\objectFiles\\armeabiDebugSharedLibrary\\hello-jniMainC\\70hbkpnyjpw5go2zoqrx0qsal\\empty.o
+F:\\work\\hello-jni\\app\\build\\intermediates\\objectFiles\\armeabiDebugSharedLibrary\\hello-jniMainC\\aexx3vd3tpyu15xk4q3xm8z3u\\hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=F:\\android-ndk-r10d/platforms/android-21/arch-arm
+-Wl,--build-id
+-no-canonical-prefixes
+-lF:\\work\\hello-jni\\app/src/main/libs/armeabi/libsqlite.so

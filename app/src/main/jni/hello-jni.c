@@ -63,7 +63,7 @@ Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
 
     //   sqlite3 ** db;
     //    sqlite3_open_v2 ("content://telephony/carriers", db, SQLITE_OPEN_URI | SQLITE_OPEN_READONLY , "" );
-    const char* libver = sqlite3_libversion();
+    const char *  libver = sqlite3_libversion();
     /*
     Table structure
        _id, name, numeric, mcc, mnc, apn, user,
@@ -72,10 +72,6 @@ Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
        protocol, roaming_protocol, carrier_enabled, bearer
     */
     return (*env)->NewStringUTF(env, libver);
-
-    return (*env)->NewStringUTF(env, "Hello from JNI builded from AS!  Compiled with multiple ABI " ABI ".");
-
-
 }
 
 JNIEXPORT jint JNICALL Java_com_example_hellojni_HelloJni_getInt (JNIEnv *env, jobject onject) {

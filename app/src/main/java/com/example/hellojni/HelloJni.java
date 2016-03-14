@@ -33,7 +33,8 @@ public class HelloJni extends Activity
          * function.
          */
         TextView  tv = new TextView(this);
-        tv.setText("Sclite loded. " + stringFromJNI() + " " + getInt());
+        //tv.setText("New model builded");
+        tv.setText("Sclite version " + stringFromJNI() + " loaded.");
         setContentView(tv);
     }
 
@@ -66,6 +67,6 @@ public class HelloJni extends Activity
      */
     static {
         System.loadLibrary("hello-jni");
-        System.loadLibrary("sqlite");
+        //System.loadLibrary("sqlite");
     }
 }

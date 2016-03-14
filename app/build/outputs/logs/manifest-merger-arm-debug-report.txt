@@ -3,10 +3,10 @@ manifest
 ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:2:1-17:12
 	package
 		ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:3:7-37
-		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
-		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
 	android:versionName
 		ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
+		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
 	android:versionCode
 		ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:4:7-30
 		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
@@ -15,13 +15,8 @@ ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:2:1-17:12
 		ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:6:5-43
-	android:targetSdkVersion
-		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
-		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:6:15-40
-		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
-		INJECTED from F:\work\hello-jni\app\src\main\AndroidManifest.xml
 application
 ADDED from F:\work\hello-jni\app\src\main\AndroidManifest.xml:7:5-16:19
 	android:label
