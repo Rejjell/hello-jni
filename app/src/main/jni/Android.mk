@@ -22,6 +22,6 @@ include $(PREBUILT_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE    := hello-jni
-LOCAL_SRC_FILES := hello-jni.c
+LOCAL_SRC_FILES := hello-jni.cpp
 LOCAL_SHARED_LIBRARIES := sqlite
 include $(BUILD_SHARED_LIBRARY)

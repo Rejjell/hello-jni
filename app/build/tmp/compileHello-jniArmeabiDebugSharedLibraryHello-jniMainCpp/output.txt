@@ -1,0 +1,4 @@
+See file:///F:/work/hello-jni/app/build/tmp/compileHello-jniArmeabiDebugSharedLibraryHello-jniMainCpp/output.txt for all output for compileHello-jniArmeabiDebugSharedLibraryHello-jniMainCpp.
+compiling hello-jni.cpp successful.
+
+Finished compileHello-jniArmeabiDebugSharedLibraryHello-jniMainCpp, see full log file:///F:/work/hello-jni/app/build/tmp/compileHello-jniArmeabiDebugSharedLibraryHello-jniMainCpp/output.txt.

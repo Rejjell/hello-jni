@@ -4,19 +4,44 @@ model {
     android {
         compileSdkVersion 21
         buildToolsVersion "22.0.1"
-
         ndk {
             moduleName "hello-jni"
             ldLibs.addAll (getProjectDir().toString() + "/src/main/libs/armeabi/libsqlite.so")
+            CFlags.add ("-std=c99")
+            CFlags.add ("-UNDEBUG")
+            CFlags.add ("-Werror")
+            CFlags.add ("-Wunused-variable")
+            CFlags.add ("-Wunused-but-set-parameter")
+            CFlags.add ("-Wtype-limits")
+            CFlags.add ("-Wmissing-field-initializers")
+            CFlags.add ("-Wreturn-type")
+            CFlags.add ("-Wuninitialized")
+            CFlags.add ("-I" + getProjectDir().toString() + "/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include")
+            CFlags.add ("-I" + getProjectDir().toString() + "/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include")
+            stl = "stlport_static"
         }
     }
 
     android.sources.main {
-            java {
-                source {
-                    srcDir 'src'
-                }
+        java {
+            source {
+                srcDir 'src'
             }
+        }
+
+        jni {
+            source {
+                srcDirs.add ("src/main/jni")
+                excludes.addAll (getProjectDir().toString() + "/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include",
+                     getProjectDir().toString() + "/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include")
+            }
+
+            exportedHeaders {
+                srcDirs.addAll (getProjectDir().toString() + "/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include",
+                 getProjectDir().toString() + "/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include")
+            }
+        }
+
     }
 
     android.productFlavors {

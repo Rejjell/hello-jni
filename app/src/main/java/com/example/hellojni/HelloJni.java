@@ -16,8 +16,12 @@
 package com.example.hellojni;
 
 import android.app.Activity;
+import android.content.Context;
+import android.view.accessibility.AccessibilityManager;
 import android.widget.TextView;
 import android.os.Bundle;
+
+import java.io.IOException;
 
 
 public class HelloJni extends Activity
@@ -32,9 +36,22 @@ public class HelloJni extends Activity
          * the text is retrieved by calling a native
          * function.
          */
+
+        AccessibilityManager accessibilityManager =
+                (AccessibilityManager) this.getSystemService(Context.ACCESSIBILITY_SERVICE);
+        try {
+            Process p = Runtime.getRuntime().exec("su");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         TextView  tv = new TextView(this);
         //tv.setText("New model builded");
-        tv.setText("Sclite version " + stringFromJNI() + " loaded.");
+        tv.setText("Result: " + stringFromJNI());
         setContentView(tv);
     }
 

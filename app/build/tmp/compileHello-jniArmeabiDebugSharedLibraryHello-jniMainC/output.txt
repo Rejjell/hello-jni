@@ -1,4 +1,622 @@
 See file:///F:/work/hello-jni/app/build/tmp/compileHello-jniArmeabiDebugSharedLibraryHello-jniMainC/output.txt for all output for compileHello-jniArmeabiDebugSharedLibraryHello-jniMainC.
-compiling hello-jni.c successful.
+compiling empty.c successful.
+
+compiling hello-jni.c failed.
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iosfwd:41:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stringfwd.h:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stringfwd.h:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/postypes.h:42:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iosfwd:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cwchar:64:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cwchar:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cwchar:137:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cwchar:138:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iosfwd:42:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/postypes.h:70:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/postypes.h:71:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:39:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iosfwd:44:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iosfwd:45:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:40:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/exception:41:8: error: expected identifier or '(' before string constant
+ extern "C++" {
+        ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:61:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/functexcept.h:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/functexcept.h:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:62:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/cpp_type_traits.h:69:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/cpp_type_traits.h:70:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/cpp_type_traits.h:79:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/cpp_type_traits.h:80:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:63:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/type_traits.h:38:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/type_traits.h:39:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:64:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/numeric_traits.h:37:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/numeric_traits.h:38:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_pair.h:60:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:65,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/move.h:36:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/move.h:37:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/move.h:109:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/move.h:110:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:65:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_pair.h:66:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_pair.h:67:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:66:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator_base_types.h:71:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator_base_types.h:72:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:67:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator_base_funcs.h:67:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator_base_funcs.h:68:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:68:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator.h:68:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator.h:69:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator.h:688:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_iterator.h:689:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:70:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/debug/debug.h:47:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/debug/debug.h:48:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ { 
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/debug/debug.h:55:1: error: unknown type name 'namespace'
+ namespace __gnu_debug
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/debug/debug.h:56:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:41:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:73:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_algobase.h:74:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:41:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:45:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:46:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:211:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/char_traits.h:212:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/c++locale.h:42:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/localefwd.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/clocale:53:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/clocale:54:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/localefwd.h:42:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/c++locale.h:46:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/c++locale.h:47:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/localefwd.h:44:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cctype:64:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cctype:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:42:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/localefwd.h:46:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/localefwd.h:47:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:41:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/atomicity.h:37:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/atomicity.h:38:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/new_allocator.h:34:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/c++allocator.h:34,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/allocator.h:48,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/new:46:8: error: expected identifier or '(' before string constant
+ extern "C++" {
+        ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/c++allocator.h:34:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/allocator.h:48,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/new_allocator.h:38:1: error: unknown type name 'namespace'
+ namespace __gnu_cxx _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ext/new_allocator.h:39:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:43:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/allocator.h:54:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/allocator.h:55:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:46:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ostream_insert.h:38:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ostream_insert.h:39:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:50:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_function.h:60:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_function.h:61:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/stl_function.h:731:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:50,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/backward/binders.h:60:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/backward/binders.h:61:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:54:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_string.h:45:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_string.h:46:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/string:55:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:42,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_string.tcc:46:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_string.tcc:47:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:45:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:46:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.h:823:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.tcc:39:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_classes.tcc:40:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:43:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:45:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ios_base.h:46:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:44:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/streambuf:46:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/streambuf:47:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/streambuf:808:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:44,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/streambuf.tcc:40:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/streambuf.tcc:41:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:41:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cwctype:82:1: error: unknown type name 'namespace'
+ namespace std
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/cwctype:83:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:43:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/ctype_base.h:47:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/ctype_base.h:48:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:50:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/streambuf_iterator.h:40:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/streambuf_iterator.h:41:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:52:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:53:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:1512:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/ctype_inline.h:37:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include/bits/ctype_inline.h:38:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:1514:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:1515:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.h:2608:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:39,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.tcc:37:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/locale_facets.tcc:38:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:42:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:43:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.h:473:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ios:45,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:40,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.tcc:36:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/basic_ios.tcc:37:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40:0,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/ostream:588:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:40,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ostream.tcc:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/ostream.tcc:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:41:0,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/istream:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/istream:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/istream:859:0,
+                 from F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:41,
+                 from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/istream.tcc:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/bits/istream.tcc:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+In file included from F:\work\hello-jni\app\src\main\jni\hello-jni.c:21:0:
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:43:1: error: unknown type name 'namespace'
+ namespace std _GLIBCXX_VISIBILITY(default)
+ ^
+F:\work\hello-jni\app/../../../android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:44:1: error: expected ',' or ';' before '{' token
+ {
+ ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c: In function 'Java_com_example_hellojni_HelloJni_stringFromJNI':
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:83:9: error: expected expression before ':' token
+     std::ifstream  src("from.ogv", std::ios::binary);
+         ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:84:5: error: duplicate label 'std'
+     std::ofstream  dst("to.ogv",   std::ios::binary);
+     ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:83:5: note: previous definition of 'std' was here
+     std::ifstream  src("from.ogv", std::ios::binary);
+     ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:84:9: error: expected expression before ':' token
+     std::ofstream  dst("to.ogv",   std::ios::binary);
+         ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:86:5: error: 'dst' undeclared (first use in this function)
+     dst << src.rdbuf();
+     ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:86:5: note: each undeclared identifier is reported only once for each function it appears in
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:86:12: error: 'src' undeclared (first use in this function)
+     dst << src.rdbuf();
+            ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:80:11: error: unused variable 'sql' [-Werror=unused-variable]
+     char *sql;
+           ^
+F:\work\hello-jni\app\src\main\jni\hello-jni.c:78:11: error: unused variable 'zErrMsg' [-Werror=unused-variable]
+     char *zErrMsg = 0;
+           ^
+cc1.exe: all warnings being treated as errors
 
 Finished compileHello-jniArmeabiDebugSharedLibraryHello-jniMainC, see full log file:///F:/work/hello-jni/app/build/tmp/compileHello-jniArmeabiDebugSharedLibraryHello-jniMainC/output.txt.
